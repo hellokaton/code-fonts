@@ -1,0 +1,88 @@
+# 最流行的 8 款编程字体
+
+## 字体特性
+
+- 无论相似的特征是区分的，比如 `0O`，`1lI`
+- 字体样式（线宽，字符宽度/高度）是否易于阅读
+- 安装方式
+- 分辨率支持
+- 是否开源、收费
+
+## 流行字体列表
+
+### 1. [Input](http://input.fontbureau.com/)
+
+Input 是一个灵活的字体系统，由 [David Jonathan Ross](http://www.djr.com/) 专门为代码设计。提供等宽字体和比例字体，所有字体都具有宽度，粗细和样式，以实现更丰富的代码格式。
+
+- 灵活配置
+- 有 Mono，Sans 和 Serif 两种款式
+- 明确区分相似的字符
+- 清晰的低分辨率和视网膜显示
+
+### 2. [Fira Code](https://github.com/tonsky/FiraCode)
+
+Fira 是 Mozilla 主推的字体系列，Fira Code 是基于 Fira Mono 等宽字体的一个扩展，主要特点是加入了编程连字特性（ligatures）。
+
+Fira Code 就是利用这个特性对编程中的常用符号进行优化，比如把输入的`「!=」` 直接显示成 `「≠」` 或者把 `「>=」` 变成 `「≥ 」` 等等，以此来提高代码的可读性。
+
+- 连字特性
+- 多种编辑器、IDE 支持
+- 支持视网膜显示
+- 经常更新
+- 开源免费
+- 提供 CSS
+
+### 3. [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
+
+由 Adobe 设计。整体而言，文本看起来比其他字体更清晰，更不用说其可区分的字符了。
+
+- 视觉友好
+- 所有显示器都清晰可辨
+- 免费开源
+- 适用于Google Web字体
+- 提供多种款式
+- 提供斜体
+
+### 4. [Ubuntu Mono](https://design.ubuntu.com/font/)
+
+Ubuntu字体专门用于补充Ubuntu语音。它具有现代风格，包含Ubuntu品牌独有的特征，传达出精确，可靠和自由的态度。
+
+- 出色的可读性
+- 易于辨别的符号
+- 颜值不错
+- 小尺寸也清晰可辨
+
+### 5. [Anonymous Pro](https://www.marksimonson.com/fonts/view/anonymous-pro)
+
+Anonymous Pro（2009）是一个由四个固定宽度字体组成的系列，设计时考虑了编码。Anonymous Pro具有基于Unicode的国际字符集，支持大多数西欧和中欧拉丁语言，以及希腊语和西里尔语。它看起来有点像打字机的感觉。
+
+- 四种风格：Regular，Italic，Bold 和 Bold Italic
+- 等宽设计
+- 各种计算机键盘符号
+- 为大多数拉丁语的西欧和中欧语言以及希腊语和西里尔语提供扩展语言支持
+
+### 6. [Menlo](https://github.com/hbin/top-programming-fonts/blob/master/Menlo-Regular.ttf)
+
+Menlo 是 maccode 中用于 Xcode 和 Terminal 的新默认字体。它是 DejaVu Sans Mono 的衍生物，Menlo也是编程的好选择。
+
+- 视觉友好
+- 好的可读性
+
+### 7. [Consolas](https://docs.microsoft.com/zh-cn/typography/font-list/consolas)
+
+Consolas 旨在用于编程环境和指定等宽字体的其他情况。所有字符都具有相同的宽度，就像旧的打字机一样，使其成为个人和商业对应的理想选择。与传统的等宽字体（如Courier）相比，改进的Windows字体显示允许设计的比例更接近普通文本。这允许更舒适地读取屏幕上的扩展文本。OpenType功能包括悬挂或衬里数字;削减，点缀和正常的零;以及许多小写字母的替代形状。通过改变条形和波浪的数量，可以将文本的外观调整为个人品味。
+
+- 颜值高
+- 包含大多数 unicode
+- 可以显示大量文本
+- 适用于 Windows 和 OSX
+- 可轻松区分相似字符
+
+### 8. [Hack](https://github.com/source-foundry/Hack)
+
+Hack 是一种专为源代码设计的开源字体，基于 Bitstream Vera 和 DejaVu 项目。`0O` 并且 `1lI` 清晰可辨，字体易于整体阅读。特别是我喜欢削减零。
+
+- webfonts有svg，eot，ttf，woff和woff2格式
+- 久经考验的 Vera Sans Mono
+- 源代码以UFO格式发布
+

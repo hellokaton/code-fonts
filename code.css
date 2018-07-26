@@ -1,0 +1,120 @@
+h1,
+h2,
+h3 {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-family: "Input Sans Compressed";
+  font-weight: 100;
+  font-size: 6em;
+  letter-spacing: -.08em;
+}
+
+h2 {
+  font-family: "Input Serif Narrow";
+  font-weight: 200;
+  font-size: 1.5em;
+  line-height: 1.1em;
+}
+
+h3 {
+  font-family: "Input Serif Compressed";
+  font-weight: 100;
+  font-size: 3em;
+  letter-spacing: -.08em;
+  padding-top: 5%;
+  border-top: 1px solid #F00;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+h4 {
+  font-weight: 700;
+  margin: 0 auto .5em auto;
+}
+
+h5 {
+  font-weight: 700;
+  margin: 2em auto .5em auto;
+}
+
+*+h4 {
+  margin-top: 2em;
+}
+
+p,
+h4,
+#preview-settings {
+  line-height: 1.3em;
+  text-align: left;
+  max-width: 42em;
+}
+
+p {
+  font-family: "Input Sans Compressed", sans-serif;
+  margin: 0 auto;
+}
+
+p+p {
+  margin-top: 1em;
+}
+
+em,
+i {
+  font-style: italic;
+}
+
+strong,
+b {
+  font-weight: 700;
+  line-height: inherit;
+}
+
+pre {
+  line-height: 1.3em;
+  text-align: left;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  margin: 5% -5.5%;
+  padding: 5% 5% 2% 5%;
+  background-color: #000;
+}
+
+figcaption {
+  font-family: "Input Sans";
+  font-weight: 200;
+  /* font-size: .75em; */
+  color: #FFF;
+  margin: 1em 0;
+}
+
+figcaption p {
+  /* max-width: 64em; */
+}
+
+table {
+  border-spacing: 0;
+  width: 100%;
+}
+
+li {
+  line-height: 1.4em;
+}
+
+input {
+  margin-right: .25em;
+}
+
+select {
+  height: 2em;
+  background-color: #E3E3E3;
+  width: 100%;
+}
+
+/* excerpted from http://input.fontbureau.com */

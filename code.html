@@ -1,0 +1,105 @@
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Input: Fonts for Code</title>
+	<meta name="description" content="Input is a typeface for code, designed by David Jonathan Ross and released by Font Bureau."
+	/>
+	<meta name="author" content="David Jonathan Ross, Nick Sherman" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" href="/css/style.css" />
+	<link rel="stylesheet" href="/css/fonts.css" />
+
+</head>
+
+<body>
+
+	<div id="header">
+		<div>
+			<div id="title">
+				<h1>
+					<a href="/">Input</a>
+					<span class="trademark">™</span>
+				</h1>
+				<div class="tagline">Fonts for Code
+					<span>, from Font&nbsp;Bureau</span>
+				</div>
+			</div>
+			<div id="nav">
+				<ul>
+					<li class="Introduction">
+						<a href="/">Intro</a>
+					</li>
+					<li class="Preview">
+						<a href="/preview/">Preview</a>
+					</li>
+					<li class="Info">
+						<a href="/info/">Info</a>
+					</li>
+					<li class="Download">
+						<a href="/download/">Download</a>
+					</li>
+				</ul>
+			</div>
+			<img height="0" width="100%" />
+		</div>
+	</div>
+
+	<div id="sticky-header">
+		<div>
+			<div id="title">
+				<h1>
+					<a href="/">Input</a>
+					<span class="trademark">™</span>
+				</h1>
+				<div class="tagline">Fonts for Code
+					<span>, from Font&nbsp;Bureau</span>
+				</div>
+			</div>
+			<div id="nav">
+				<ul>
+					<li>
+						<a href="/" class="Introduction">Introduction</a>
+					</li>
+					<li>
+						<a href="/preview/" class="Preview">Preview</a>
+					</li>
+					<li>
+						<a href="/info/" class="Info">Info</a>
+					</li>
+					<li>
+						<a href="/download/" class="Download">Download</a>
+					</li>
+				</ul>
+			</div>
+			<img height="0" width="100%" />
+		</div>
+	</div>
+
+
+	<div id="footer">
+		Site by
+		<a href="http://djr.com/">David Jonathan Ross</a> and&nbsp;
+		<a href="http://nicksherman.com/">Nick&nbsp;Sherman</a>. ©2014&nbsp;
+		<a href="#">The&nbsp;Font&nbsp;Bureau,&nbsp;Inc.</a>
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+	<script src="/js/jquery.ui.touch.js"></script>
+	<script src="/js/scripts.js"></script>
+	<script src="/js/codemirror/lib/codemirror.js"></script>
+
+	<script type="text/javascript">
+		/* Press 'w' to toggle the debug class */
+		$(document).keydown(function (e) {
+			var key = e.which;
+			if (key == 87) {
+				$("html").toggleClass("debug");
+			}
+			var a = 1 != 2;
+		});
+	</script>
+</body>
+
+</html>
